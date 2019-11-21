@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>calendar</title>
+</head>
+<body>
+	<style>
+	body {
+  padding: 20px;
+  font-family: Helvetica;
+  background-color: #20262e;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 1rem;
+}
+
+li {
+	list-style: none;
+}
+
+li>a {
+  display: block;
+  background-color: rgb(255, 238, 210);
+  border-radius: 3px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border: red solid 1px;
+  text-decoration: none;
+  text-align: center;
+  color: #aa3333;
+}
+
+li>a::visited,
+li>a:hover,
+li>a:active {
+  background-color: #aa3333 !important;
+  border-color: #189 !important;
+  color: green !important;
+}
+
+a.large {
+  padding: 3rem;
+}
+
+.info {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+  padding: 1rem;
+  color: #fff;
+  border: solid 1px gray;
+  border-radius: 2px;
+}
+
+
+	</style>
+	<ul>
+		<li><a href="http://notexistingpage.op">20</a></li>
+		<li><a href="https://google.com" target="somewhere">1</a></li>
+		<li><a href="http://notexistingpage.op">14</a></li>
+		<li><a href="http://notexistingpage.op">2</a></li>
+		<li><a href="http://notexistingpage.op">11</a></li>
+		<li><a href="http://notexistingpage.op">5</a></li>
+		<li><a href="http://notexistingpage.op">7</a></li>
+		<li><a href="http://notexistingpage.op">4</a></li>
+		<li><a href="http://notexistingpage.op">8</a></li>
+		<li><a href="http://notexistingpage.op">9</a></li>
+		<li><a href="http://notexistingpage.op">12</a></li>
+		<li><a href="http://notexistingpage.op">3</a></li>
+		<li><a href="http://notexistingpage.op">13</a></li>
+		<li><a class="large" href="http://notexistingpage.op">24</a></li>
+		<li><a href="http://notexistingpage.op">17</a></li>
+		<li><a href="http://notexistingpage.op">18</a></li>
+		<li><a href="http://notexistingpage.op">6</a></li>
+		<li><a href="http://notexistingpage.op">19</a></li>
+		<li><a href="http://notexistingpage.op">10</a></li>
+		<li><a href="http://notexistingpage.op">21</a></li>
+		<li><a href="http://notexistingpage.op">15</a></li>
+		<li><a href="http://notexistingpage.op">22</a></li>
+		<li><a href="http://notexistingpage.op">23</a></li>
+		<li><a href="http://notexistingpage.op">16</a></li>
+	  </ul>
+	  
+	  <div class="info">Resize this panel to see grids respond</div>
+	  
+	  
+</body>
+</html>
