@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>cardflip - jquery</title>
+	<style>
+		.card {
+			height: 6rem;
+			width: 6rem;
+		}
+
+		.card .front,
+		.card .back {
+			padding: 2rem;
+		}
+
+		.card .front {
+			background: #189;
+		}
+
+		.card .back {
+			background: #33aa11
+		}
+	</style>
+</head>
+
+<body>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+	<div class="card">
+		<div class="front">
+			Front content
+		</div>
+		<div class="back">
+			Back content
+		</div>
+	</div>
+	<div class="card">
+		<div class="front">
+			Front content
+		</div>
+		<div class="back">
+			Back content
+		</div>
+	</div>
+	<script>
+		$(".card").flip();
+	</script>
+</body>
+
+</html>
